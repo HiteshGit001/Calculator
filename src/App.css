@@ -1,0 +1,62 @@
+.cont {
+  background-image: url("./asset/pexels-s-migaj-747964.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.row {
+  margin-top: 5px;
+}
+
+.calculator {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  padding: 20px;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+@media only screen and (max-width: 600px) {
+  .cont{
+    height:100vh;
+  }
+  .calculator{
+    top: 25%;
+    width: 400px;
+    left: 10%;
+  }
+  button{
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cont{
+    height:100vh;
+  }
+  .calculator{
+    top: 25%;
+    width: 300px;
+    left: 10%;
+  }
+  button{
+    margin-top: 1rem;
+  }
+}
+
+.input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
